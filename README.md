@@ -15,6 +15,10 @@
   * user can add text to the table on clicking add and update the existing text on clicking update.
   * user can drag from any side of box and all boxes will be resizing accordingly.
   * A frontend based counter in also visible to see how mush api call has been made since first load or reload.
+    #### Run the code
+    ```cd frontend```
+    ```npm install```
+    ```npm run dev```
  
   ### Backend
   * Created backend server using NodeJS and expressJS along the MongoDB database and deployed the service on render.com .
@@ -22,6 +26,12 @@
   * ```/get``` to get all data from database in initial loading state.
   * ```/post``` to post data to the database.
   * ```/update``` to update the already existing data of the database.
+    #### Run the code
+    * create .env file refering to example.env in the root.
+    * ```yarn install```
+    * ```yarn start```
+
+    
   
   
 
