@@ -16,9 +16,9 @@
   * user can drag from any side of box and all boxes will be resizing accordingly.
   * A frontend based counter in also visible to see how mush api call has been made since first load or reload.
     #### Run the code
-    ```cd frontend```
-    ```npm install```
-    ```npm run dev```
+    * ```cd frontend```
+    * ```npm install```
+    * ```npm run dev```
  
   ### Backend
   * Created backend server using NodeJS and expressJS along the MongoDB database and deployed the service on render.com .
