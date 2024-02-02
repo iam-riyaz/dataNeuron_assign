@@ -1,10 +1,29 @@
-# Node-App-Template
+# Data Neuron Assignment 
 
-## this template will create a basic structure for node app using yarn package as yarn is more easy to deploy. All files in this app are Javascript (.js)
+## Technology and packages
+- ReactJS
+- NodeJS
+- ExpressJS
+- MongoDB
+- Monsoose
+- React-resizable
 
-###  Steps to start app
-1. clone the app in your local mechine. 
-2. Create `.env` using `example.env` and add your relevant details on that.
-3. In terminal run `yarn install`
-4. `yarn start`
+  ### Frontend
+  * Created 3 resizbale divs using same state with different fractions of the state.
+  * create a todo type add and update feature in User interfacel
+  * use Resizable component form "react-resizable" library.
+  * user can add text to the table on clicking add and update the existing text on clicking update.
+  * user can drag from any side of box and all boxes will be resizing accordingly.
+  * A frontend based counter in also visible to see how mush api call has been made since first load or reload.
+ 
+  ### Backend
+  * Created backend server using NodeJS and expressJS along the MongoDB database and deployed the service on render.com .
+  * total 3 endpoints has been created in this backend
+  * ```/get``` to get all data from database in initial loading state.
+  * ```/post``` to post data to the database.
+  * ```/update``` to update the already existing data of the database.
+  
+  
+
+
 
