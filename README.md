@@ -9,6 +9,7 @@
 - React-resizable
 
   ### Frontend
+  - live line:
   * Created 3 resizbale divs using same state with different fractions of the state.
   * create a todo type add and update feature in User interfacel
   * use Resizable component form "react-resizable" library.
@@ -21,6 +22,7 @@
     * ```npm run dev```
  
   ### Backend
+  - live link: data_neuron
   * Created backend server using NodeJS and expressJS along the MongoDB database and deployed the service on render.com .
   * total 3 endpoints has been created in this backend
   * ```/get``` to get all data from database in initial loading state.
