@@ -22,7 +22,7 @@ export const ResizableComponent = () => {
   const handleAdd = () => {
     if (inputText.length != 0) {
       axios
-        .post("http://localhost:3000/data/post", { text: inputText })
+        .post("https://data-neuron-assign.onrender.com/data/post", { text: inputText })
         .then((res) => {setListData(res.data.data)})
         .catch((err) => console.log(err));
     
@@ -38,14 +38,14 @@ export const ResizableComponent = () => {
 
   const handleSave = (id) => {
 
-    axios.patch("http://localhost:3000/data/update",{text:newText,id:id}).then((res)=>{ console.log(res.data.data); setListData(res.data.data)}).catch((err)=>console.log(err))
+    axios.patch("https://data-neuron-assign.onrender.com/data/update",{text:newText,id:id}).then((res)=>{ console.log(res.data.data); setListData(res.data.data)}).catch((err)=>console.log(err))
      setApiCount((pre)=>pre+1)
     setEditIndex(-1);
   };
 
   useEffect(() => {
     axios
-      .get("http://localhost:3000/data/get")
+      .get("https://data-neuron-assign.onrender.com/data/get")
       .then((res) => {
 
         setListData(res.data.data);
